@@ -1,0 +1,10 @@
+:root{
+    --light-color:  hsl(254, 88%, 90%);
+    --dark-color: hsl(256, 67%, 59%);
+
+    --light-color-2: hsl(31, 66%, 93%);
+    --dark-color-2: hsl(39, 100%, 71%);
+
+    --white-color: hsl(0, 0%, 100%);
+    --black-color: hsl(0, 0%, 7%);
+}
