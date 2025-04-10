@@ -219,6 +219,7 @@ img{
 
     .container .box-division-2 .box-3 h2{
         font-size: clamp(0.3em, 0.5em + 1.2vw, 1.5em);
+    
     }
 
     .container .box-division-2 .box-3 img{
@@ -294,7 +295,7 @@ img{
 
     .container .box-division-3{
         overflow-x: hidden;
-        overflow-y: visible;
+        overflow-y: hidden;
     }
 
     .container .box-division-3 h2{
@@ -334,6 +335,15 @@ img{
     .container .box-division-1, .box-division-2, .box-division-3, .box-division-4{
         grid-column: auto;
         grid-row: auto;
+    }
+}
+
+@media(max-width: 435px){
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        padding-inline: 65px;
+        padding-bottom: 2750px;
     }
 }
 
